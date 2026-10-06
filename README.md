@@ -29,9 +29,3 @@ Die Arbeitsregeln für Codex stehen in `AGENTS.md`. Der aktuelle Stand und die n
 - `docs/SHOP_DESIGN.md` – fachliches Verhalten des Shops
 - `docs/ARCHITECTURE.md` – aktuelle technische Struktur und Architekturziele
 - `docs/LEARNING_GOALS.md` – Kenntnisse, die ich erwerben und erklären können möchte
-
-## Aktueller Stand
-
-Der Agent Harness wird aufgebaut. Shopcode und Datenbank wurden noch nicht angelegt.
-
-Eine Anleitung zum lokalen Starten und Testen wird ergänzt, sobald die Anwendung tatsächlich ausführbar ist.

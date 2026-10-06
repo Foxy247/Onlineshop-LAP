@@ -4,18 +4,16 @@
 
 - Kapitel: 0 – Agent Harness und Projektgrundlagen
 - zuletzt überprüfte Quest: `README.md` erstellen
-- Status: `PASSED`
+- Status: `COMPLETED`
 - aktuell bearbeitetes Thema: Agent Harness abschließen
 
 ## Erledigte Schritte
 
-- zwei Referenz-Repositories analysiert
-- lokalen LAP2025-Shop als Lernmaterial geprüft
+- Referenz-Repositories und lokalen LAP2025-Shop als Lernmaterial analysiert
 - Sechs-Stunden-Kernshop eingegrenzt
 - Lernphase und späteren Abschlussdurchlauf getrennt
-- `AGENTS.md`, `ROADMAP.md`, `README.md` und `PROGRESS.md` angelegt
-- `docs/SHOP_DESIGN.md`, `docs/ARCHITECTURE.md` und `docs/LEARNING_GOALS.md` angelegt
-- Inhalt und Speicherort der Dokumente überprüft
+- `AGENTS.md`, `ROADMAP.md` und `README.md` erstellt und überprüft
+- `docs/SHOP_DESIGN.md`, `docs/ARCHITECTURE.md` und `docs/LEARNING_GOALS.md` erstellt und überprüft
 
 ## Geübte Konzepte
 
@@ -24,13 +22,12 @@
 - fachliches Verhalten von technischer Architektur unterscheiden
 - Lernziele getrennt von Funktionen beschreiben
 - Kernfunktionen von späteren Erweiterungen abgrenzen
-- Markdown-Dateien und Ordner selbst anlegen
 
 ## Benötigt noch Übung
 
 - fachliche Anforderungen selbst formulieren
 - technische Entscheidungen anhand konkreter Probleme treffen
-- Projektfortschritt nach jeder überprüften Quest knapp aktualisieren
+- Fortschritt nach überprüften Quests knapp dokumentieren
 
 ## Nächster Meilenstein
 
@@ -40,4 +37,4 @@ Shopcode und Datenbank wurden noch nicht angelegt.
 
 ## Nächste Quest
 
-Prüfen, wie PHP im neuen Projekt lokal ausgeführt werden soll. Erst danach die erste kleine Programmierquest festlegen.
+Prüfen, wie PHP im neuen Projekt lokal ausgeführt werden soll. Danach die erste kleine Programmierquest festlegen.
