@@ -2,10 +2,10 @@
 
 ## Aktueller Stand
 
-- Kapitel: 0 – Agent Harness und Projektgrundlagen
-- zuletzt überprüfte Quest: `README.md` erstellen
+- Kapitel: 1 – PHP und der erste Request
+- zuletzt überprüfte Quest: Shoptexte aus Variablen
 - Status: `COMPLETED`
-- aktuell bearbeitetes Thema: Agent Harness abschließen
+- aktuell bearbeitetes Thema: Bedingungen und boolesche Werte
 
 ## Erledigte Schritte
 
@@ -14,6 +14,10 @@
 - Lernphase und späteren Abschlussdurchlauf getrennt
 - `AGENTS.md`, `ROADMAP.md` und `README.md` erstellt und überprüft
 - `docs/SHOP_DESIGN.md`, `docs/ARCHITECTURE.md` und `docs/LEARNING_GOALS.md` erstellt und überprüft
+- Projekt unter XAMPP-htdocs eingerichtet und Git-Verwaltung überprüft
+- `index.php` mit HTML und PHP-Ausgabe erstellt und über Apache erfolgreich abgerufen
+- erneute Browser-Anfrage beim Neuladen erklärt
+- Shopname und Begrüßung aus Variablen ausgegeben; Code und Verständnis überprüft
 
 ## Geübte Konzepte
 
@@ -22,19 +26,25 @@
 - fachliches Verhalten von technischer Architektur unterscheiden
 - Lernziele getrennt von Funktionen beschreiben
 - Kernfunktionen von späteren Erweiterungen abgrenzen
+- Webserver und Datenbankserver unterscheiden
+- PHP mit `echo` ausgeben
+- Variablenname und Wert unterscheiden
+- Zuweisung vor dem Auslesen erklären
 
 ## Benötigt noch Übung
 
 - fachliche Anforderungen selbst formulieren
 - technische Entscheidungen anhand konkreter Probleme treffen
 - Fortschritt nach überprüften Quests knapp dokumentieren
+- Datentypen und Bedingungen verwenden
+- Request und Response genauer nachvollziehen
 
 ## Nächster Meilenstein
 
-Den Agent Harness abschließen und die Entwicklungsumgebung für die erste PHP-Quest prüfen.
+Die Begrüßung abhängig von einem booleschen Wert anzeigen.
 
-Shopcode und Datenbank wurden noch nicht angelegt.
+Eine Datenbank wurde noch nicht angelegt.
 
 ## Nächste Quest
 
-Prüfen, wie PHP im neuen Projekt lokal ausgeführt werden soll. Danach die erste kleine Programmierquest festlegen.
+In `index.php` mit einer booleschen Variable und `if` / `else` zwischen Begrüßung und Wartungshinweis wechseln. Beide Fälle testen.

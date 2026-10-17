@@ -1,3 +1,12 @@
+<?php
+
+$shopname = "Foxy's Brilliant Emporium"; 
+$greeting = "Welcome to my Brilliant Emporium";
+$isShopOpen = true; 
+
+?> 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +15,9 @@
     <title>Online Shop</title>
 </head>
 <body>
-    <h1>Foxy's Online Shop</h1>
+    <h1><?= $shopname ?></h1>
 
-    <p>Welcome to my brillinat Emporium</p>
+    <p><?= $greeting ?></p>
+     
 </body>
 </html>

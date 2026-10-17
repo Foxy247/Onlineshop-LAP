@@ -8,19 +8,19 @@ Sie beginnt bewusst klein und wird nur erweitert, wenn im Projekt eine technisch
 
 Fachliche Shopregeln gehören in `SHOP_DESIGN.md`. Lernziele gehören in `LEARNING_GOALS.md`.
 
-## Aktueller Projektstand
+## Aktuelle technische Struktur
 
-Der Shopcode wurde noch nicht begonnen.
+`index.php` ist der Einstiegspunkt. Die Datei enthält derzeit HTML und eingebettetes PHP. Klassen und eine MVC-Aufteilung werden in späteren Quests eingeführt.
 
-Aktuell existiert nur der Agent Harness mit:
+Die lokale Ausführung erfolgt über Apache und PHP aus XAMPP. Die Startanleitung steht in `README.md`.
 
-- Arbeitsregeln
-- Roadmap
-- Fortschrittsdatei
-- Shopdesign
-- Architekturdokumentation
+Der aktuelle Ablauf ist:
 
-Die konkrete Ordnerstruktur der Anwendung wird erst festgelegt, wenn die erste Implementierungsquest vorbereitet wird.
+```text
+Browser → HTTP Request → Apache / PHP → index.php → HTTP Response mit HTML → Browser
+```
+
+PHP wird auf dem Server ausgeführt. Der Browser erhält das erzeugte HTML. Lernfortschritt und Quest-Status stehen in `PROGRESS.md`.
 
 ## Technologie-Stack
 
@@ -64,7 +64,6 @@ Browser
 → View
 → HTTP Response
 → Browser
-
 ```
 
 Dieser Ablauf ist ein Zielbild. Die tatsächlich vorhandenen Schritte werden erst dokumentiert, wenn sie implementiert wurden.
@@ -109,7 +108,7 @@ Views enthalten keine SQL-Abfragen.
 
 ## Datenbankzugriff
 
-Der Datenbankzugriff erfolgt mit PDO.
+Der geplante Datenbankzugriff erfolgt mit PDO. Eine Datenbankanbindung ist noch nicht implementiert.
 
 Dabei gelten folgende Grundsätze:
 
@@ -206,26 +205,28 @@ Vor jeder neuen Abstraktion wird gefragt:
 ```text
 Onlineshop-LAP/
 ├── AGENTS.md
+├── README.md
 ├── ROADMAP.md
 ├── PROGRESS.md
+├── index.php
 └── docs/
     ├── SHOP_DESIGN.md
-    └── ARCHITECTURE.md
+    ├── ARCHITECTURE.md
+    └── LEARNING_GOALS.md
 ```
 
-Diese Struktur wird erst ergänzt, wenn eine Quest tatsächlich eine neue Datei oder einen neuen Ordner benötigt.
+Die Übersicht zeigt die Anwendungs- und Harness-Dateien. Sie wird bei tatsächlichen Strukturänderungen aktualisiert.
 
 ## Noch nicht entschieden
 
 Folgende technische Entscheidungen sind bewusst noch offen:
 
 - genaue Ordnerstruktur des Shopcodes
-- Einstiegspunkt der Anwendung
 - konkretes Routing
 - Composer-Autoloading
 - Namespaces
 - genaue PDO-Verbindungsklasse
-- Entwicklungs- und Testablauf
+- weiterführender Testablauf
 - CSS-Struktur
 
 Diese Entscheidungen werden schrittweise anhand des tatsächlichen Projektstands getroffen.

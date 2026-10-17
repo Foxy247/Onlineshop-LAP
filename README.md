@@ -1,31 +1,31 @@
-# PHP Online-Shop – Lernprojekt
+# PHP Online Shop – Learning Project
 
-In diesem Projekt entwickle ich selbst einen einfachen browserbasierten Online-Shop mit PHP und MySQL. Dabei möchte ich nicht nur einen funktionierenden Shop bauen, sondern seine Datenflüsse, Struktur und Sicherheitsregeln verstehen und erklären können.
+In this project, I am developing a simple browser-based online shop using PHP and MySQL. My goal is not only to build a functioning shop, but also to understand and explain its data flows, structure, and security rules.
 
-Die Lernphase ist zeitlich offen. Nach ausreichend Übung soll ich den definierten Kernshop innerhalb von sechs Stunden erneut programmieren können. Es handelt sich nicht um einen Shop für echte Verkäufe oder Zahlungen.
+There is no time limit for the learning phase. After enough practice, I should be able to build the defined core shop again within six hours. This is not a shop for real sales or payments.
 
-## Geplanter Kernshop
+## Planned Core Shop
 
-- verfügbare Produkte aus MySQL anzeigen
-- Produkte in einem Session-Warenkorb verwalten
-- Mengen ändern, Produkte entfernen und Summen serverseitig berechnen
-- Kunden registrieren und anmelden
-- eine einfache Bestellung mit Bestellpositionen speichern
-- eigene Bestellungen anzeigen
+- display available products from MySQL
+- manage products in a session-based shopping cart
+- change quantities, remove products, and calculate totals on the server
+- register customers and allow them to log in
+- store a simple order with order items
+- display a customer's own orders
 
-Der genaue Funktionsumfang und die fachlichen Regeln stehen in `docs/SHOP_DESIGN.md`.
+The exact scope and business rules are documented in `docs/SHOP_DESIGN.md`.
 
-## Arbeitsweise
+## Working Method
 
-Ich programmiere die Funktionen selbst. Codex begleitet mich mit kleinen Mini-Quests, abgestuften Hinweisen, Code-Reviews und Verständnisfragen. Eine Quest ist erst abgeschlossen, wenn die Umsetzung geprüft wurde und ich die wesentlichen Konzepte erklären kann.
+I program the features myself. Codex supports me with small mini-quests, graduated hints, code reviews, and questions that check my understanding. A quest is only completed after the implementation has been reviewed and I can explain the essential concepts.
 
-Die Arbeitsregeln für Codex stehen in `AGENTS.md`. Der aktuelle Stand und die nächste Aufgabe stehen in `PROGRESS.md`.
+The working rules for Codex are documented in `AGENTS.md`. The current status and next task are documented in `PROGRESS.md`.
 
-## Projektdokumente
+## Project Documents
 
-- `AGENTS.md` – Zusammenarbeit mit Codex
-- `ROADMAP.md` – große Entwicklungs- und Lernkapitel
-- `PROGRESS.md` – aktueller, überprüfter Stand
-- `docs/SHOP_DESIGN.md` – fachliches Verhalten des Shops
-- `docs/ARCHITECTURE.md` – aktuelle technische Struktur und Architekturziele
-- `docs/LEARNING_GOALS.md` – Kenntnisse, die ich erwerben und erklären können möchte
+- `AGENTS.md` – collaboration with Codex
+- `ROADMAP.md` – major development and learning chapters
+- `PROGRESS.md` – current verified status
+- `docs/SHOP_DESIGN.md` – business behavior of the shop
+- `docs/ARCHITECTURE.md` – current technical structure and architectural goals
+- `docs/LEARNING_GOALS.md` – knowledge and skills I want to acquire and be able to explain
