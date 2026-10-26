@@ -2,7 +2,10 @@
 
 $shopname = "Foxy's Brilliant Emporium";
 $greeting = "Welcome to my Brilliant Emporium";
-$isShopOpen = false;
+$isShopOpen = true;
+$productName = "Fox-Apple";
+$productDescription = "An apple a day keeps the fox away";
+$pruductPriceInCents = 299; 
 ?>
 
 
@@ -17,16 +20,17 @@ $isShopOpen = false;
 
 <body>
 
-    <?php
+    <?php if ($isShopOpen): ?> 
+        <h1><?= $shopname ?></h1>
+        <p><?= $greeting ?></p>
+        <h2><?= $productName ?></h2> 
+        <p><?= $productDescription ?></p>
+        <p><?= $pruductPriceInCents ?> Cent</p>
+    <?php else: ?>
+        <h1>The shop is undergoing maintenance.</h1>
+    <?php endif; ?>
 
-        if ($isShopOpen) {
-            echo "<h1>" . $shopname . "</h1>";
-            "<p>" . $greeting . "</p>";
-        } else {
-            echo "The shop is currently undergoing maintenance.";
-        };
-
-    ?>
+    
     
 
 

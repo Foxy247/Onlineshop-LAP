@@ -3,9 +3,9 @@
 ## Aktueller Stand
 
 - Kapitel: 1 – PHP und der erste Request
-- zuletzt überprüfte Quest: Shoptexte aus Variablen
+- zuletzt überprüfte Quest: Begrüßung oder Wartungshinweis
 - Status: `COMPLETED`
-- aktuell bearbeitetes Thema: Bedingungen und boolesche Werte
+- aktuell bearbeitetes Thema: erste Produktdarstellung mit Variablen
 
 ## Erledigte Schritte
 
@@ -18,6 +18,7 @@
 - `index.php` mit HTML und PHP-Ausgabe erstellt und über Apache erfolgreich abgerufen
 - erneute Browser-Anfrage beim Neuladen erklärt
 - Shopname und Begrüßung aus Variablen ausgegeben; Code und Verständnis überprüft
+- Bedingte Anzeige mit `if` / `else` umgesetzt; beide Zustände und Verständnis überprüft
 
 ## Geübte Konzepte
 
@@ -30,6 +31,7 @@
 - PHP mit `echo` ausgeben
 - Variablenname und Wert unterscheiden
 - Zuweisung vor dem Auslesen erklären
+- boolesche Werte und Auswahl eines `if`- oder `else`-Zweigs erklären
 
 ## Benötigt noch Übung
 
@@ -41,10 +43,10 @@
 
 ## Nächster Meilenstein
 
-Die Begrüßung abhängig von einem booleschen Wert anzeigen.
+Eine Produktübersicht mit drei Produkten schrittweise aufbauen: einzelne Werte, Produktobjekte, Array und Schleife.
 
 Eine Datenbank wurde noch nicht angelegt.
 
 ## Nächste Quest
 
-In `index.php` mit einer booleschen Variable und `if` / `else` zwischen Begrüßung und Wartungshinweis wechseln. Beide Fälle testen.
+In `index.php` ein Produkt mit Namen, Beschreibung und Preis in Cent als Variablen speichern und nur bei geöffnetem Shop anzeigen.
