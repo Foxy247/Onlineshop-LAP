@@ -2,10 +2,22 @@
 
 $shopname = "Foxy's Brilliant Emporium";
 $greeting = "Welcome to my Brilliant Emporium";
+
 $isShopOpen = true;
-$productName = "Fox-Apple";
-$productDescription = "An apple a day keeps the fox away";
-$pruductPriceInCents = 299; 
+
+class Product 
+{
+    public string $name;
+    public string $description;
+    public int $priceInCents;
+}
+
+
+$product = new Product();
+$product->name = "Fox-Apple";
+$product->description = "An apple a day keeps the fox away";
+$product->priceInCents = 299;
+
 ?>
 
 
@@ -25,15 +37,10 @@ $pruductPriceInCents = 299;
         <p><?= $greeting ?></p>
         <h2><?= $productName ?></h2> 
         <p><?= $productDescription ?></p>
-        <p><?= $pruductPriceInCents ?> Cent</p>
+        <p><?= $productPriceInCents ?> Cent</p>
     <?php else: ?>
         <h1>The shop is undergoing maintenance.</h1>
     <?php endif; ?>
-
-    
-    
-
-
 
 </body>
 

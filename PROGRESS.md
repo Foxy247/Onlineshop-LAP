@@ -2,10 +2,10 @@
 
 ## Aktueller Stand
 
-- Kapitel: 1 – PHP und der erste Request
-- zuletzt überprüfte Quest: Begrüßung oder Wartungshinweis
+- Kapitel: 2 – Produkte darstellen (Grundlagen werden weiter geübt)
+- zuletzt überprüfte Quest: erstes Produkt mit Variablen anzeigen
 - Status: `COMPLETED`
-- aktuell bearbeitetes Thema: erste Produktdarstellung mit Variablen
+- aktuell bearbeitetes Thema: Klassen, Objekte und Properties
 
 ## Erledigte Schritte
 
@@ -19,6 +19,7 @@
 - erneute Browser-Anfrage beim Neuladen erklärt
 - Shopname und Begrüßung aus Variablen ausgegeben; Code und Verständnis überprüft
 - Bedingte Anzeige mit `if` / `else` umgesetzt; beide Zustände und Verständnis überprüft
+- Ein Produkt mit Namen, Beschreibung und ganzzahligem Centpreis dargestellt
 
 ## Geübte Konzepte
 
@@ -32,6 +33,8 @@
 - Variablenname und Wert unterscheiden
 - Zuweisung vor dem Auslesen erklären
 - boolesche Werte und Auswahl eines `if`- oder `else`-Zweigs erklären
+- Strings und ganze Zahlen unterscheiden; Preis mit einer Menge multiplizieren
+- HTML mit PHP-Kurzausgabe und alternativer `if`-Syntax kombinieren
 
 ## Benötigt noch Übung
 
@@ -49,4 +52,4 @@ Eine Datenbank wurde noch nicht angelegt.
 
 ## Nächste Quest
 
-In `index.php` ein Produkt mit Namen, Beschreibung und Preis in Cent als Variablen speichern und nur bei geöffnetem Shop anzeigen.
+In `index.php` eine einfache Klasse `Product` mit drei deklarierten Properties anlegen, ein Objekt erzeugen und dessen Werte anzeigen. Konstruktor und Auslagerung folgen später.
