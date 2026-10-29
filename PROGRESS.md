@@ -3,9 +3,9 @@
 ## Aktueller Stand
 
 - Kapitel: 2 – Produkte darstellen (Grundlagen werden weiter geübt)
-- zuletzt überprüfte Quest: erstes Produkt mit Variablen anzeigen
+- zuletzt überprüfte Quest: ein Produkt als Objekt
 - Status: `COMPLETED`
-- aktuell bearbeitetes Thema: Klassen, Objekte und Properties
+- aktuell bearbeitetes Thema: sichere HTML-Ausgabe vorbereiten
 
 ## Erledigte Schritte
 
@@ -20,6 +20,7 @@
 - Shopname und Begrüßung aus Variablen ausgegeben; Code und Verständnis überprüft
 - Bedingte Anzeige mit `if` / `else` umgesetzt; beide Zustände und Verständnis überprüft
 - Ein Produkt mit Namen, Beschreibung und ganzzahligem Centpreis dargestellt
+- Klasse `Product` mit drei typisierten Properties angelegt; Objekt erzeugt und Properties korrekt ausgegeben
 
 ## Geübte Konzepte
 
@@ -35,6 +36,7 @@
 - boolesche Werte und Auswahl eines `if`- oder `else`-Zweigs erklären
 - Strings und ganze Zahlen unterscheiden; Preis mit einer Menge multiplizieren
 - HTML mit PHP-Kurzausgabe und alternativer `if`-Syntax kombinieren
+- Objekt und einzelne Property unterscheiden; Properties mit `->` setzen und auslesen
 
 ## Benötigt noch Übung
 
@@ -52,4 +54,4 @@ Eine Datenbank wurde noch nicht angelegt.
 
 ## Nächste Quest
 
-In `index.php` eine einfache Klasse `Product` mit drei deklarierten Properties anlegen, ein Objekt erzeugen und dessen Werte anzeigen. Konstruktor und Auslagerung folgen später.
+In `index.php` anhand eines Produktnamens mit HTML-Sonderzeichen sichere Textausgabe verstehen und mit `htmlspecialchars()` umsetzen.

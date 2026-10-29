@@ -10,7 +10,7 @@ Fachliche Shopregeln gehören in `SHOP_DESIGN.md`. Lernziele gehören in `LEARNI
 
 ## Aktuelle technische Struktur
 
-`index.php` ist der Einstiegspunkt. Die Datei enthält derzeit HTML und eingebettetes PHP. Klassen und eine MVC-Aufteilung werden in späteren Quests eingeführt.
+`index.php` ist der Einstiegspunkt und enthält vorläufig Datenmodell, Beispieldaten und HTML-Darstellung. Diese Verantwortlichkeiten werden im weiteren Verlauf schrittweise getrennt.
 
 Die lokale Ausführung erfolgt über Apache und PHP aus XAMPP. Die Startanleitung steht in `README.md`.
 

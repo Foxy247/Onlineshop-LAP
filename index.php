@@ -14,7 +14,7 @@ class Product
 
 
 $product = new Product();
-$product->name = "Fox-Apple";
+$product->name = "Fox <em>Apple</em> & Friends";
 $product->description = "An apple a day keeps the fox away";
 $product->priceInCents = 299;
 
@@ -35,9 +35,10 @@ $product->priceInCents = 299;
     <?php if ($isShopOpen): ?> 
         <h1><?= $shopname ?></h1>
         <p><?= $greeting ?></p>
-        <h2><?= $productName ?></h2> 
-        <p><?= $productDescription ?></p>
-        <p><?= $productPriceInCents ?> Cent</p>
+        <br>
+        <h2><?= $product->name ?></h2> 
+        <p><?= $product->description ?></p>
+        <p><?= $product->priceInCents ?> Cent</p>
     <?php else: ?>
         <h1>The shop is undergoing maintenance.</h1>
     <?php endif; ?>
